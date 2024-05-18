@@ -34,3 +34,9 @@
    only changes in DOM rather than rendering whole DOM.
 
 7. "flex justify-centre" put item horizontally at centre and "flex item-centre" put item       vertically centre
+
+8. h-screen class ensures that the container takes up the full height of the screen, allowing for vertical centering to be visible.
+
+9. the block class ensures that both the label and the input are displayed as block-level elements, taking up the full width of their container.
+
+10. The w-full class makes the input box take up the full width of its container by default, and md:w-auto makes it take up only as much width as necessary on medium-sized screens and above, allowing it to resize responsively.
